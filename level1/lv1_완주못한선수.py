@@ -6,21 +6,29 @@ except EOFError as e:
 
 def solution(participant, completion):
     answer = ''
-    count = []
-    for i in range(len(participant)):
-        count.append(0)
-        for j in range(i+1, len(participant)):
-            if participant[i] == participant[j]:
-                count[i] += 1
-        for j in range(len(completion)):
-            if participant[i] == completion[j]:
-                count[i] -= 1
-        if count[i] != -1:
-            answer = participant[i]
+    part = sorted(participant)
+    comp = sorted(completion)
+    for j in range(len(completion)):
+        if part[j] != comp[j] :
+            answer = part[j]
+            break
+    if answer == '':
+        answer = part[-1]
+    #count = []
     # for i in range(len(participant)):
+    #     count.append(0)
+    #     for j in range(i+1, len(participant)):
+    #         if participant[i] == participant[j]:
+    #             count[i] += 1
     #     for j in range(len(completion)):
-    #         if participant[i] not in completion:
-    #             answer = participant[i]
+    #         if participant[i] == completion[j]:
+    #             count[i] -= 1
+    #     if count[i] == 0:
+    #         answer = participant[i]
+    # for i in range(len(participant)):
+    #     if participant.count(participant[i]) != completion.count(participant[i]):
+    #         answer = participant[i]
+    #         break
     print(answer)
     return answer
 solution(participant, completion)
