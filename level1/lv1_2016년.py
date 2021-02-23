@@ -20,12 +20,8 @@ except EOFError as e:
 # solution(a,b)
 
 def solution(a, b):
-    answer = ''
     mon = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     day = ['FRI', 'SAT', 'SUN', 'MON', 'TUE', 'WED', 'THU']
-    aa = 0
     aa = sum(mon[:(a-1)])+b
     answer = day[aa%7-1]
-    print(answer)
     return answer
-solution(a,b)
