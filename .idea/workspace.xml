@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a83b3615-0a2c-4668-918a-09569fff5c2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/level1/lv1_divisor_arr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level1/lv1_가운데글자.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level1/lv1_같은숫자.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level1/lv1_내적.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level1/lv1_두정수사이합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level1/lv1_문자열인덱스정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level1/lv1_문자열내림자순.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level1/lv1_2016년.py" beforeDir="false" afterPath="$PROJECT_DIR$/level1/lv1_2016년.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level1/lv1_문자열인덱스정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/level1/lv1_문자열인덱스정렬.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lv1_문자열인덱스정렬">
+  <component name="RunManager" selected="Python.lv1_문자열내림자순">
     <configuration name="lv1_문자열인덱스정렬" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,6 +52,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level1/lv1_문자열인덱스정렬.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lv1_문자열내림자순" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="github" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/level1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level1/lv1_문자열내림자순.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +188,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lv1_문자열내림자순" />
         <item itemvalue="Python.lv1_문자열인덱스정렬" />
         <item itemvalue="Python.lv1_k번째수" />
-        <item itemvalue="Python.lv1_두정수사이합" />
-        <item itemvalue="Python.lv1_같은숫자" />
-        <item itemvalue="Python.lv1_가운데글자" />
       </list>
     </recent_temporary>
   </component>
